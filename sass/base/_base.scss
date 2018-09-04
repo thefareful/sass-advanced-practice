@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /*makes all elements inherit from their parents*/
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box; 
+    /* margins and paddings are not included in element sizes*/
+}
